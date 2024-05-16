@@ -5,11 +5,14 @@
 
 # Digamos que você está construindo um programa para identificar níveis de CO2 (gás carbônico) em determinados locais para 
 #evitar potenciais acidentes. Em cada um desses locais a sua empresa tem 5 sensores que captam o nível de CO2 do local.
+
 # Os níveis normais de CO2 são em média 350. O nível de CO2 de um local é dado pela média captada pelos 5 sensores. Isso 
 #significa que se tivermos os 5 sensores do Rio de Janeiro marcando: 350, 400, 450, 350, 300, o nível de CO2 do Rio de 
 #Janeiro será dado por: (350 + 400 + 450 + 350 + 300) / 5 = 370.
+
 # Caso o nível seja maior do que 450, um aviso deve ser exibido pelo seu programa dizendo, por exemplo: Rio de Janeiro 
 #está com níveis altíssimos de CO2 (490), chamar equipe especializada para verificar a região.
+
 # Os resultados dos sensores são monitorados frequentemente e são dados para o sistema em forma de dicionário:
 
 niveis_co2 = {
